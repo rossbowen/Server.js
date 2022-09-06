@@ -1,0 +1,12 @@
+{
+    "@context": [
+        "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^4.0.0/components/context.jsonld",
+        {
+            "npmd": "https://linkedsoftwaredependencies.org/bundles/npm/",
+            "ldfdc": "npmd:@ldf/datasource-csvw/",
+            "files-ldfdc": "ldfdc:^3.0.0/",
+            "CsvwDatasource": "ldfdc:Datasource/Csvw",
+            "csvwMetadata": "ldfdc:Datasource/Csvw#metadata"
+        }
+    ]
+}

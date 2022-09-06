@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/core/^3.0.0/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/datasource-csvw/^3.0.0/components/context.jsonld"
+  ],
+  "@id": "npmd:@ldf/datasource-csvw",
+  "components": [
+    {
+      "@id": "ldfdc:Datasource/Csvw",
+      "@type": "Class",
+      "extends": "ldfc:Datasource/Memory",
+      "requireElement": "datasources.CsvwDatasource",
+      "comment": "An CsvwDatasource fetches data from an CSV on the Web (CSVW) metadata document",
+      "parameters": [
+        {
+          "@id": "ldfdc:Datasource/Csvw#metadata",
+          "comment": "The CSV on the Web metadata document URL",
+          "range": "xsd:string",
+          "unique": true
+        }
+      ],
+      "constructorArguments": {
+        "extends": "ldfc:Datasource/Memory#constructorArgumentsObject",
+        "fields": [
+            {
+              "keyRaw": "metadata",
+              "value": "ldfdc:Datasource/Csvw#metadata"
+            }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/server/^3.0.0/components/context.jsonld",
+  "@id": "urn:ldf-server:my",
+  "import": "preset-qpf:config-defaults.json",
+
+  "datasources": [
+    {
+      "@id": "urn:ldf-server:myCsvwDatasource",
+      "@type": "CsvwDatasource",
+      "datasourceTitle": "My CSV on the Web (CSVW) metadata file",
+      "description": "My dataset with a CSVW back-end",
+      "datasourcePath": "mycsvw",
+      "file": "path/to/file.csv",
+      "csvwMetadata": "path/to/file.csv-metadata.json"
+    }
+  ]
+}

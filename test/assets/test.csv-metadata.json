@@ -1,0 +1,43 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "url": "test.csv",
+    "tableSchema": {
+      "aboutUrl": "http://example.org/{id}",
+      "columns": [
+        {
+          "titles": "id",
+          "suppressOutput": true
+        },
+        {
+          "titles": "p1",
+          "propertyUrl": "http://example.org/p1",
+          "valueUrl": "http://example.org/{p1}"
+        },
+        {
+          "titles": "p2",
+          "propertyUrl": "http://example.org/p2",
+          "valueUrl": "http://example.org/{p2}"
+        },
+        {
+          "titles": "p3",
+          "propertyUrl": "http://example.org/p3"
+        },
+        {
+          "titles": "p3_en",
+          "lang": "en",
+          "propertyUrl": "http://example.org/p3"
+        },
+        {
+          "titles": "p3_string",
+          "datatype": "xsd:string",
+          "propertyUrl": "http://example.org/p3"
+        },
+        {
+          "titles": "p3_literal",
+          "datatype": "http://example.org/literal",
+          "propertyUrl": "http://example.org/p3"
+        }
+      ]
+    }
+  }
+  

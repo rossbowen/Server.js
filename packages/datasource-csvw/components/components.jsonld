@@ -1,0 +1,9 @@
+{
+  "@context": "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/datasource-csvw/^3.0.0/components/context.jsonld",
+  "@id": "npmd:@ldf/datasource-csvw",
+  "@type": "Module",
+  "requireName": "@ldf/datasource-csvw",
+  "import": [
+    "files-ldfdc:components/Datasource/Csvw.jsonld"
+  ]
+}

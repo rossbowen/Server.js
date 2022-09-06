@@ -29,6 +29,7 @@
   "dependencies": {
     "@ldf/core": "^3.2.1",
     "@ldf/datasource-composite": "^3.2.1",
+    "@ldf/datasource-csvw": "^3.3.0",
     "@ldf/datasource-hdt": "^3.2.1",
     "@ldf/datasource-jsonld": "^3.2.1",
     "@ldf/datasource-n3": "^3.2.1",
